@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background: #000;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            margin: auto;     
+            text-align: center;
+            font-size: 50px;
+            color: #f5ee62;
+            text-shadow: 2px 2px white;
+            margin-bottom: 40px;
+        }
+        .divi{
+            width: 26rem;
+            height: 100%;
+            margin: auto;
+        }
+        input{
+            margin: auto;
+            min-width: 23vw;
+            height: 5vh;
+            padding: 9px;
+            border-radius: 20px;
+            border: 1px solid white;
+            color: white;
+        }
+        .todo{
+            width: 36rem;
+            height: auto;
+            align-items: center;
+            }
+        .todo li{
+            margin: 2vh;
+            padding: 1px 0;
+            font-size: 20px;
+            list-style: none;
+        }
+        .botn{
+            margin-left:80px;
+            margin-top: 0;
+            width: 10vw;
+        }
+        button{
+            height: 4vh;
+            width: 6vw;
+            border: none;
+            border-radius: 20px;
+            background-color: #f5ee62;
+            color: #000;
+            font-weight: bold;
+            transition:all 0.3s linear;
+
+        }
+        button:hover{
+            background-color: black;
+            color:#f5ee62;
+            border: 2px solid #f5ee62;
+        }
+        li{
+            width: 24rem;
+            display: flex;
+            margin: 15px 5px;
+            
+        }
+        h3{
+            width: 100%
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Todo List</h1>
+    <div class="divi">
+        <input type="search" class="src" placeholder="Enter Any List">
+        <button class="btn">Click me</button>
+        <div class="tod">
+        </div>
+    
+    </div>
+    <script src="./appscript.js"></script>
+    
+
+
+</body>
+</html>
